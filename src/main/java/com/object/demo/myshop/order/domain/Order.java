@@ -12,7 +12,7 @@ import javax.persistence.TemporalType;
 import lombok.Getter;
 
 @Getter
-@Entity(name = "order")
+@Entity(name = "purchase_order")
 @Access(AccessType.FIELD)
 public class Order {
 
@@ -26,6 +26,11 @@ public class Order {
   private Date orderDate;
 
   public Order() {
+
+  }
+
+  public Order(OrderNo number) {
+    this.number = number;
   }
 
   /**
