@@ -8,3 +8,18 @@
 뚜렷한 컨텍스트는 아직 작성하지 않음.
 
 이후 컨텍스트 작성하게 되면 예제 코드로 작성 예정.
+
+
+```
+생성된 Table 확인 방법
+
+http://localhost:9000/h2-console
+
+로그인창에서 
+
+JDBC URL : jdbc:h2:mem:testdb
+ID : sa
+Password : (빈칸)
+
+으로 로그인.
+```
