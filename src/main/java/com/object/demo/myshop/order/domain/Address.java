@@ -2,16 +2,16 @@ package com.object.demo.myshop.order.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Embeddable;
-import java.io.Serializable;
 
-@Getter
+@NoArgsConstructor
 @AllArgsConstructor
+@Getter
 @Embeddable
-public class Money implements Serializable {
-    private Long value;
-
-    protected Money() {
-    }
+public class Address {
+    private String zipCode;
+    private String address1;
+    private String address2;
 }

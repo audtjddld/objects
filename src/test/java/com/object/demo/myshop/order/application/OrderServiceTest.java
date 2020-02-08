@@ -3,7 +3,7 @@ package com.object.demo.myshop.order.application;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import com.object.demo.myshop.order.application.order.OrderService;
+import com.object.demo.myshop.order.domain.service.OrderService;
 import com.object.demo.myshop.order.domain.Order;
 import com.object.demo.myshop.order.domain.OrderNo;
 import java.util.Optional;

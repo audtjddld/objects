@@ -1,6 +1,6 @@
 package com.object.demo.myshop.order.config;
 
-import com.object.demo.myshop.order.application.order.OrderService;
+import com.object.demo.myshop.order.domain.service.OrderService;
 import com.object.demo.myshop.order.domain.Order;
 import com.object.demo.myshop.order.domain.OrderNo;
 import com.object.demo.myshop.order.domain.OrderState;

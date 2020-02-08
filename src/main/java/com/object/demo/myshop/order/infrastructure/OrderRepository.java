@@ -1,4 +1,4 @@
-package com.object.demo.myshop.order.infrastruture;
+package com.object.demo.myshop.order.infrastructure;
 
 import com.object.demo.myshop.order.domain.Order;
 import com.object.demo.myshop.order.domain.OrderNo;

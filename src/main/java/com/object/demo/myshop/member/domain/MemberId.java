@@ -1,4 +1,4 @@
-package com.object.demo.myshop.order.domain;
+package com.object.demo.myshop.member.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -8,16 +8,16 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import java.io.Serializable;
 
+
 @EqualsAndHashCode
-@Embeddable
 @AllArgsConstructor
+@Embeddable
 @Getter
-public class OrderNo implements Serializable {
+public class MemberId implements Serializable {
 
-    @Column(name = "order_no")
-    private String number;
+    @Column(name = "member_id")
+    private String id;
 
-    protected OrderNo() {
-
+    protected MemberId() {
     }
 }

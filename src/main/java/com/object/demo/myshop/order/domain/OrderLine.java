@@ -1,6 +1,6 @@
 package com.object.demo.myshop.order.domain;
 
-import com.object.demo.myshop.order.domain.product.Product;
+import com.object.demo.myshop.product.domain.Product;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,5 +30,9 @@ public class OrderLine {
   public OrderLine(Order order, Product product) {
     this.order = order;
     this.product = product;
+  }
+
+  protected OrderLine() {
+
   }
 }

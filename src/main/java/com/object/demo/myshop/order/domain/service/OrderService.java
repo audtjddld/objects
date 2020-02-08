@@ -1,8 +1,8 @@
-package com.object.demo.myshop.order.application.order;
+package com.object.demo.myshop.order.domain.service;
 
 import com.object.demo.myshop.order.domain.Order;
 import com.object.demo.myshop.order.domain.OrderNo;
-import com.object.demo.myshop.order.infrastruture.OrderRepository;
+import com.object.demo.myshop.order.infrastructure.OrderRepository;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

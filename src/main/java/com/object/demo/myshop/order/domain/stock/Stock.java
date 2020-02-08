@@ -1,6 +1,6 @@
 package com.object.demo.myshop.order.domain.stock;
 
-import com.object.demo.myshop.order.domain.product.Product;
+import com.object.demo.myshop.product.domain.Product;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
